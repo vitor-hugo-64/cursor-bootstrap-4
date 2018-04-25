@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="../files/css/bootstrap.min.css">
+	<style type="text/css">
+	div.bg{
+		background-color: #563d7c;
+		height: 50px;
+		border: 1px solid #fff;
+	}
+	div.bg1{
+		background-color: #C0C0C0;
+		height: 50px;
+		border: 1px solid #fff;
+	}
+</style>
+<title></title>
+</head>
+<body>
+
+	<!-- container-fluid - Tem a largura de toda a página -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col bg">
+				
+			</div>
+			<div class="col bg">
+				
+			</div>
+			<div class="col bg">
+				
+			</div>
+			<div class="col bg">
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- conatiner - Tem uma determinada largura da página -->
+	<div class="container">
+		<div class="row">
+			<div class="col bg">
+				
+			</div>
+			<div class="col bg">
+				
+			</div>
+			<div class="col bg">
+				
+			</div>
+			<div class="col bg">
+				
+			</div>
+		</div>
+
+		<!-- definindo o tamanho especifico das colunas -->
+		<div class="row">
+			<div class="col-6 bg"></div>	
+			<div class="col-6 bg"></div>
+		</div>
+
+		<div class="row">
+			<div class="col-1 bg"></div>
+			<div class="col-4 bg"></div>
+			<div class="col-7 bg"></div>
+		</div>
+
+		<!-- centralizar colunas -->
+		<div class="row justify-content-center">
+			<div class="col-1 bg"></div>
+			<div class="col-5 bg"></div>
+		</div>
+
+		<!-- definir tamanho de acordo com o viewport -->
+		<div class="row">
+			<div class="col-sm-12 col-lg-4 col-xl-4 bg1"></div>
+			<div class="col-sm-12 col-lg-4 col-xl-4 bg1"></div>
+			<div class="col-sm-12 col-lg-4 col-xl-4 bg1"></div>
+		</div>
+		
+		<!-- order - Define a ordem em que os elementos devem aparecer na tela -->
+		<div class="row">
+			<div class="col bg"><h1>Primeiro Item</h1></div>
+			<div class="col bg order-2"><h1>Segundo Item</h1></div>
+			<div class="col bg order-1"><h1>Terceiro Item</h1></div>
+		</div>
+	</div>
+
+	<script src="../files/js/jquery-3.3.1.min.js"></script>
+	<script type="../files/popper/popper.min.js"></script>
+	<script type="../files/js/bootstrap.min.js"></script>
+</body>
+</html>
