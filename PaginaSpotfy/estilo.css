@@ -7,6 +7,10 @@
 
 /* ==================== layout ==================== */
 
+body {
+	border: 
+}
+
 /* -- Barra de navegação -- */
 .img-logo {
 	height: 40px;
@@ -43,4 +47,6 @@ nav.navbar-transparent{
 	color: #9bf0e1;
 	transition: 0.2s all;
 }
+
+/* ========== Imagem de capa ========== */
 /* ==================== Tipografia ==================== */
